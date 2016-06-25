@@ -1,25 +1,17 @@
-## 手动重写一个vue-vuex的demo。
+# 手动重写一个vue-vuex的demo。
 
->[原文链接](https://segmentfault.com/a/1190000005015164)
+##重点:
 
-
-参考：
-[vue文档] (http://cn.vuejs.org/guide/)
-[vuex文档](http://vuex.vuejs.org/zh-cn/index.html)
-
-###重点:
-
-####事件流
+###事件流
 ```
 1.用户在组件中的输入操作触发 action 调用；
 2.Actions 通过分发 mutations 来修改 store 实例的状态；
 3.Store 实例的状态变化反过来又通过 getters 被组件获知。
 ```
 
-![vuex事件流]("./dataflow.jpg")
+![vuex事件流](dataflow.jpg)
 
-
-####API
+###API
 ```
     根容器中加入store，它的每个子组件都会和store连接。
     store是new Vuex.Store({state, mutations})
@@ -33,3 +25,10 @@
 ```
 
 
+
+>[原文链接](https://segmentfault.com/a/1190000005015164)
+
+参考：
+[vue文档] (http://cn.vuejs.org/guide/)
+<br/>
+[vuex文档](http://vuex.vuejs.org/zh-cn/index.html)
