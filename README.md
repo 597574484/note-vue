@@ -29,6 +29,7 @@
 >[原文链接](https://segmentfault.com/a/1190000005015164)
 
 参考：
+<br/>
 [vue文档] (http://cn.vuejs.org/guide/)
 <br/>
 [vuex文档](http://vuex.vuejs.org/zh-cn/index.html)
